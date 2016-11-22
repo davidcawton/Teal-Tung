@@ -1,0 +1,57 @@
+.main-blog {
+  display: flex;
+  flex-direction: column;
+  background: $brand-secondary;
+  color: $brand-primary;
+  width: 100%;
+  padding: 2rem 0;
+
+}
+
+.blog-post {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $brand-primary;
+
+}
+
+
+
+.blog-post__dateline, .blog-post__title {
+  margin: 0;
+}
+
+.blog-post__title {
+  font-size: 2.5rem;
+}
+
+.blog-post__dateline {
+  font-style: italic;
+}
+
+.blog-post__preview {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__preview-img {
+  width: 100%;
+  height: auto;
+}
+
+.post__preview-graph {
+  width: 80%;
+}
+
+.blog-post__button {
+  height: 3rem;
+  background: $brand-primary;
+  color: $brand-secondary;
+  width: 5rem;
+  text-align: center;
+  font-family: "Playfair Display";
+}

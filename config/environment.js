@@ -20,7 +20,12 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+
+    googleFonts: [
+        'Playfair+Display:300,400,400i,700,900,900i',
+        'Roboto:300'
+      ],
   };
 
   if (environment === 'development') {

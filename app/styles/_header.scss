@@ -1,0 +1,48 @@
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 0 0rem;
+}
+
+.header-logo {
+  height: 3rem;
+  width: 2.5rem;
+}
+
+.header-title {
+  font-size: 8rem;
+  color: $brand-secondary;
+  margin: 1rem;
+}
+
+.main-header__img {
+  width: 60%;
+  height: auto;
+}
+
+
+.main-info {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 3rem;
+  display: flex;
+  background: $brand-secondary;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: $brand-primary;
+
+}
+
+.main-info__title {
+  font-size: 6rem;
+  margin: 1rem;
+  font-style: italic;
+}
+
+.main-info__graph {
+  width: 80%;
+  text-align: justify;
+}

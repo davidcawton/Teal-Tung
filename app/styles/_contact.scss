@@ -1,0 +1,57 @@
+.contact{
+  padding-top: 3rem;
+  background: $brand-secondary;
+}
+
+.main-subscribe {
+  width: 80%;
+  margin: auto;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe-title, .main-contact__title {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.main-contact__title {
+  font-size: 2.5rem;
+}
+
+.subscribe-form, .contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.subscribe-input, .contact-input {
+  background: $brand-secondary;
+  border: 4px solid $brand-primary;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 5px;
+  font-family: "Playfair Display";
+}
+
+.subscribe-submit, .contact-submit {
+  background: $brand-primary;
+  color: $brand-secondary;
+  font-size: 1.5rem;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  font-family: "Playfair Display";
+}
+
+.main-contact {
+  width: 80%;
+  margin: auto;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
