@@ -1,25 +1,29 @@
+.main-body  {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  background: $brand-secondary;
+}
+
 .main-blog {
   display: flex;
   flex-direction: column;
   background: $brand-secondary;
   color: $brand-primary;
-  width: 100%;
+  width: 70%;
   padding: 2rem 0;
-
 }
 
 .blog-post {
-  width: 60%;
+  width: 70%;
   margin: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid $brand-primary;
 
 }
-
-
 
 .blog-post__dateline, .blog-post__title {
   margin: 0;
@@ -54,4 +58,93 @@
   width: 5rem;
   text-align: center;
   font-family: "Playfair Display";
+}
+
+.main-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  padding: 0 0 2rem;
+  background: $brand-primary;
+  color: $brand-secondary;
+}
+
+.main-sidebar__title {
+  border-top: 1px solid $brand-secondary;
+  margin: 0;
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 2rem;
+  text-decoration: underline;
+}
+
+.main-sidebar__author {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-sidebar__author-img {
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.main-sidebar__author-img_cover {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 200px;
+  background: $brand-secondary;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.main-sidebar__author-title,
+.main-sidebar__author-subtitle,
+.main-sidebar__author-graph {
+  margin: 0;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.main-sidebar__author-subtitle {
+  width: 80%;
+  border-bottom: 1px solid $brand-secondary;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.main-sidebar__author-graph {
+  width: 80%;
+  padding: 0.5rem 0.5rem 3rem;
+}
+
+
+.main-sidebar__archive-list {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.main-sidebar__archive-li {
+  padding: 0.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
+
+.main-sidebar__social {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+}
+
+.main-sidebar__social-i {
+  padding: 0.5rem;
+  margin-top: 1rem;
 }
