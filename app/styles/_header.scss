@@ -44,3 +44,10 @@
 .main-info__graph {
   width: 80%;
 }
+
+.main-info__hr {
+  display: flex;
+  height: 5px;
+  width: 100%;
+  background: $brand-secondary;
+}
