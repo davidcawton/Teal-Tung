@@ -1,20 +1,32 @@
 <div class="contact">
-  <div class="main-subscribe">
-    <h4 class="subscribe-title">Subscribe</h4>
-    <form class="subscribe-form" action="">
-      <input class="subscribe-input" type="email" name="email" placeholder="Email">
-      <button class="subscribe-submit">Go Head</button>
-    </form>
-  </div>
 
-  <div class="main-contact">
-    <h4 class="main-contact__title">Contact</h4>
+  <h4 class="main-contact__title">Connect With Us</h4>
+  <hr class="contact-hr">
+    <div class="contact-address">
+      <p class="contact-address__p">Teal Tung</p>
+      <p class="contact-address__p">12345 Main Street</p>
+      <p class="contact-address__p">Austin, TX 78704</p>
+      <p class="contact-address__p"><a href="tel:5125555555">512.555.5555</a></p>
+      <p class="contact-address__p"><a href="mailto:dcawton@gmail.com">tealtung@tealtung.com</a></p>
+    </div>
+  <div id="contact" class="main-contact">
+    <p class="contact-title">Have A Question? Just Ask!</p>
+
     <form action="" class="contact-form">
       <input type="text" class="contact-input" name="Name" placeholder="Name">
       <input type="text" class="contact-input" name="Email" placeholder="Email">
       <input type="text" class="contact-input" name="Phone" placeholder="Phone">
       <textarea name="description" id="" cols="30" rows="5" class="contact-input contact-text" placeholder="What's Up?"></textarea>
-      <button class="contact-submit">Go Head</button>
+      <button class="contact-submit">Send</button>
     </form>
   </div>
+  <div class="main-subscribe">
+    <p class="contact-title">Keep Up With Our Posts</p>
+    <form class="subscribe-form" action="">
+      <input class="subscribe-input" type="email" name="email" placeholder="Email">
+      <button class="subscribe-submit">Subscribe</button>
+    </form>
+  </div>
+  {{g-map lat=30.3076859 lng=-97.8938281 zoom=9}}
+
 </div>

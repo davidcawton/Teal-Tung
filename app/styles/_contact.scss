@@ -1,26 +1,55 @@
 .contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 3rem;
   background: $brand-secondary;
+  border-top: 10px solid $brand-primary;
 }
+
+.main-contact__title {
+  font-size: 3.5rem;
+  margin: 0;
+  font-style: italic;
+  color: $brand-primary;
+}
+
+.contact-hr {
+  width: 35%;
+  background: $brand-primary;
+  height: 4px;
+}
+
+.contact-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-address__p {
+  margin: 0;
+  padding: 0.2rem;
+}
+
 
 .main-subscribe {
   width: 80%;
   margin: auto;
-  padding: 3rem 0;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.subscribe-title, .main-contact__title {
+.contact-title  {
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 0;
+
 }
 
-.main-contact__title {
-  font-size: 2.5rem;
-}
+
 
 .subscribe-form, .contact-form {
   display: flex;

@@ -1,0 +1,11 @@
+.g-map {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.g-map-canvas {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
