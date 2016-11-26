@@ -73,11 +73,12 @@
   padding: 0 0 2rem;
   background: $brand-primary;
   color: $brand-secondary;
-  border-top: 4px solid $brand-secondary;
+  border-top: 10px solid $brand-secondary;
+
 }
 
 .main-sidebar__title {
-  border-top: 4px solid $brand-secondary;
+  border-top: 10px solid $brand-secondary;
   margin: 0;
   text-align: center;
   font-size: 2.2rem;
@@ -143,18 +144,18 @@
 }
 
 
-.main-sidebar__social {
+.main-social {
   display: flex;
   padding: 0.5rem;
   justify-content: center;
 }
 
-.main-sidebar__social p {
+.main-social p {
   font-size: 1.5rem;
 
 }
 
-.main-sidebar__social-i {
+.main-social-i {
   padding: 0.5rem;
   margin-top: 1rem;
 }

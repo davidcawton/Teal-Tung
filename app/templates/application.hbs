@@ -1,119 +1,107 @@
-<div class="main">
+<div class="main" id="home">
   {{!--MAIN NAV  --}}
   {{top-nav}}
 
-  {{!--MAIN TITLE  --}}
-  {{outlet}}
-    <div class="main-header">
-      <div class="header-group">
-        <img src="tt.png" alt="Teal Tung" class="header-logo">
-        <h1 class="header-title">TEAL TUNG</h1>
-      </div>
-      <img src="jagsbw.png" alt="" class="main-header__img">
-    </div>
-
-    {{!--MAIN --}}
-    <div class="main-info">
-      <h2 class="main-info__title">Hello</h2>
-      <hr class="main-info__hr">
-      <p class="main-info__graph">
-        Teal Tung is what's on my mind right now. Sports, Politics, and daily observations. I don't take this blog too seriously, and neither should you. If you want more information about a post, contact me. You can also subscribe so you never miss a post. Interested
-        in posting? Head over to About.
-      </p>
-      <p class="main-info__graph">Enjoy.</p>
-    </div>
-
-    {{!--MAIN BODY  --}}
-    <div class="main-body">
-      {{!--MAIN BLOG  --}}
-      <div class="main-blog">
-        <div class="blog-post">
-          <div class="blog-post__header">
-            <h3 class="blog-post__title">This is A Cool Title</h3>
-            <hr class="blog-post__title-hr">
-            <p class="blog-post__dateline">November 20, 2016</p>
-          </div>
-          <div class="blog-post__preview">
-            <img src="sleepbw.png" alt="Teal Tung" class="post__preview-img">
-            <p class="post__preview-graph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <button class="blog-post__button">Read More</button>
+    {{!--MAIN TITLE  --}}
+    {{outlet}}
+      <div class="main-header">
+        <div class="header-group">
+          <img src="tt.png" alt="Teal Tung" class="header-logo">
+          <h1 class="header-title">TEAL TUNG</h1>
         </div>
-        <div class="blog-post">
-          <div class="blog-post__header">
-            <h3 class="blog-post__title">This is A Funny Title</h3>
-            <hr class="blog-post__title-hr">
-            <p class="blog-post__dateline">November 20, 2016</p>
-          </div>
-          <div class="blog-post__preview">
-            <img src="sleepbw.png" alt="Teal Tung" class="post__preview-img">
-            <p class="post__preview-graph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <button class="blog-post__button">Read More</button>
-        </div>
+        <img src="jagsbw.png" alt="" class="main-header__img">
       </div>
 
-      {{!-- MAIN SIDEBAR --}}
-      <div class="main-sidebar">
-        <div class="main-sidebar__author">
-          <img src="davedog.jpg" alt="Teal Tung" class="main-sidebar__author-img">
-          <div class="main-sidebar__author-img_cover"></div>
-          <h2 class="main-sidebar__author-title">David Charles</h2>
-          <h3 class="main-sidebar__author-subtitle">Blogger</h3>
-          <p class="main-sidebar__author-graph">
-            David Charles is a blogger, sports fan, novice political contributor and dog guy. He's worked in broadcast news, sports event production, marketing and social media coordniation. On days off, you can find him at the beach, at the dog partk or working
-            on side projects. For more info, click here.
-          </p>
+      {{!--MAIN --}}
+      <div class="main-info">
+        <h2 class="main-info__title">Hello</h2>
+        <hr class="main-info__hr">
+        <p class="main-info__graph">
+          Teal Tung is what's on my mind right now. Sports, Politics, and daily observations. I don't take this blog too seriously, and neither should you. If you want more information about a post, contact me. You can also subscribe so you never miss a post. Interested
+          in posting? Head over to About.
+        </p>
+        <p class="main-info__graph">Enjoy.</p>
+      </div>
+
+      {{!--MAIN BODY  --}}
+      <div class="main-body">
+        {{!--MAIN BLOG  --}}
+        <div class="main-blog">
+          <div class="blog-post">
+            <div class="blog-post__header">
+              <h3 class="blog-post__title">This is A Cool Title</h3>
+              <hr class="blog-post__title-hr">
+              <p class="blog-post__dateline">November 20, 2016</p>
+            </div>
+            <div class="blog-post__preview">
+              <img src="sleepbw.png" alt="Teal Tung" class="post__preview-img">
+              <p class="post__preview-graph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <button class="blog-post__button">Read More</button>
+          </div>
+          <div class="blog-post">
+            <div class="blog-post__header">
+              <h3 class="blog-post__title">This is A Funny Title</h3>
+              <hr class="blog-post__title-hr">
+              <p class="blog-post__dateline">November 20, 2016</p>
+            </div>
+            <div class="blog-post__preview">
+              <img src="sleepbw.png" alt="Teal Tung" class="post__preview-img">
+              <p class="post__preview-graph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <button class="blog-post__button">Read More</button>
+          </div>
         </div>
-        <div class="main-sidebar__archive">
-          <h3 class="main-sidebar__title">
+
+        {{!-- MAIN SIDEBAR --}}
+        <div class="main-sidebar">
+          <div class="main-sidebar__author">
+            <img src="davedog.jpg" alt="Teal Tung" class="main-sidebar__author-img">
+            <div class="main-sidebar__author-img_cover"></div>
+            <h2 class="main-sidebar__author-title">David Charles</h2>
+            <h3 class="main-sidebar__author-subtitle">Blogger</h3>
+            <p class="main-sidebar__author-graph">
+              David Charles is a blogger, sports fan, novice political contributor and dog guy. He's worked in broadcast news, sports event production, marketing and social media coordniation. On days off, you can find him at the beach, at the dog partk or working
+              on side projects. For more info, click here.
+            </p>
+          </div>
+          <div class="main-sidebar__archive">
+            <h3 class="main-sidebar__title">
           Archive
         </h3>
-          <hr class="main-sidebar__title-hr">
-          <ul class="main-sidebar__archive-list">
-            <li class="main-sidebar__archive-li">Example Title</li>
-            <li class="main-sidebar__archive-li">Another Blog Post</li>
-            <li class="main-sidebar__archive-li">Something Else</li>
-            <li class="main-sidebar__archive-li">Check This Out</li>
-            <li class="main-sidebar__archive-li">More Tips Here</li>
-            <li class="main-sidebar__archive-li">An Older Post</li>
-            <li class="main-sidebar__archive-li">Example Title</li>
-            <li class="main-sidebar__archive-li">Another Blog Post</li>
-            <li class="main-sidebar__archive-li">Something Else</li>
-            <li class="main-sidebar__archive-li">Check This Out</li>
-          </ul>
-        </div>
-        <div class="main-sidebar__social">
-          <p>#</p>
-          <i class="fa fa-facebook main-sidebar__social-i"></i>
-          <i class="fa fa-twitter main-sidebar__social-i"></i>
-          <i class="fa fa-instagram main-sidebar__social-i"></i>
-          <i class="fa fa-snapchat main-sidebar__social-i"></i>
+            <hr class="main-sidebar__title-hr">
+            <ul class="main-sidebar__archive-list">
+              <li class="main-sidebar__archive-li">Example Title</li>
+              <li class="main-sidebar__archive-li">Another Blog Post</li>
+              <li class="main-sidebar__archive-li">Something Else</li>
+              <li class="main-sidebar__archive-li">Check This Out</li>
+              <li class="main-sidebar__archive-li">More Tips Here</li>
+              <li class="main-sidebar__archive-li">An Older Post</li>
+              <li class="main-sidebar__archive-li">Example Title</li>
+              <li class="main-sidebar__archive-li">Another Blog Post</li>
+              <li class="main-sidebar__archive-li">Something Else</li>
+              <li class="main-sidebar__archive-li">Check This Out</li>
+            </ul>
+          </div>
+          {{social-nav}}
         </div>
       </div>
+      {{!--MAIN ABOUT  --}}
+      {{about-us}}
 
-
-    </div>
-
-    {{!--MAIN CONTACT  --}}
-    {{contact-form}}
+      {{!--MAIN CONTACT  --}}
+      {{contact-form}}
 
       {{!--MAIN FOOTER  --}}
-      <div class="main-footer">
-        <div class="legal">
-          Copyright (c) 2016 Copyright Teal Tung All Rights Reserved.
+        <div class="main-footer">
+          <div class="legal">
+            Copyright (c) 2016 Copyright Teal Tung All Rights Reserved.
+          </div>
+          {{social-nav}}
         </div>
-        <div class="main-sidebar__social">
-          <p>#</p>
-          <i class="fa fa-facebook main-sidebar__social-i"></i>
-          <i class="fa fa-twitter main-sidebar__social-i"></i>
-          <i class="fa fa-instagram main-sidebar__social-i"></i>
-          <i class="fa fa-snapchat main-sidebar__social-i"></i>
-        </div>
-      </div>
-      {{top-nav}}
+        {{top-nav}}
 </div>
