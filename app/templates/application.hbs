@@ -1,15 +1,13 @@
 <div class="main" id="home">
   {{!--MAIN NAV  --}}
-  {{top-nav}}
 
     {{!--MAIN TITLE  --}}
-    {{outlet}}
       <div class="main-header">
-        <div class="header-group">
-          <img src="tt.png" alt="Teal Tung" class="header-logo">
+        {{top-nav}}
+        <div class="header">
           <h1 class="header-title">TEAL TUNG</h1>
+          <h2 class="header-subtitle">Sports. Film. Life.</h2>
         </div>
-        <img src="jagsbw.png" alt="" class="main-header__img">
       </div>
 
       {{!--MAIN --}}
@@ -17,8 +15,8 @@
         <h2 class="main-info__title">Hello</h2>
         <hr class="main-info__hr">
         <p class="main-info__graph">
-          Teal Tung is what's on my mind right now. Sports, Politics, and daily observations. I don't take this blog too seriously, and neither should you. If you want more information about a post, contact me. You can also subscribe so you never miss a post. Interested
-          in posting? Head over to About.
+          Meditation DIY coloring book four loko banh mi pok pok forage, actually craft beer hot chicken chia raclette semiotics tilde banjo. Poutine shabby chic knausgaard, salvia normcore trust fund hexagon +1 occupy dreamcatcher whatever fanny pack tote bag.
+          Celiac mumblecore photo booth fingerstache.
         </p>
         <p class="main-info__graph">Enjoy.</p>
       </div>
@@ -36,7 +34,8 @@
             <div class="blog-post__preview">
               <img src="sleepbw.png" alt="Teal Tung" class="post__preview-img">
               <p class="post__preview-graph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Brunch wolf forage, authentic single-origin coffee man braid taxidermy typewriter. Listicle hot chicken vape, vexillologist sartorial affogato food truck austin. Keytar butcher hoodie pop-up, gluten-free sartorial subway tile poutine hashtag pitchfork
+                pabst. Selvage salvia tumblr, wolf aesthetic banjo kogi shabby chic blue bottle narwhal hell of raclette actually.
               </p>
             </div>
             <button class="blog-post__button">Read More</button>
@@ -50,8 +49,8 @@
             <div class="blog-post__preview">
               <img src="sleepbw.png" alt="Teal Tung" class="post__preview-img">
               <p class="post__preview-graph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+                Brunch wolf forage, authentic single-origin coffee man braid taxidermy typewriter. Listicle hot chicken vape, vexillologist sartorial affogato food truck austin. Keytar butcher hoodie pop-up, gluten-free sartorial subway tile poutine hashtag pitchfork
+                pabst. Selvage salvia tumblr, wolf aesthetic banjo kogi shabby chic blue bottle narwhal hell of raclette actually. </p>
             </div>
             <button class="blog-post__button">Read More</button>
           </div>
@@ -59,16 +58,6 @@
 
         {{!-- MAIN SIDEBAR --}}
         <div class="main-sidebar">
-          <div class="main-sidebar__author">
-            <img src="davedog.jpg" alt="Teal Tung" class="main-sidebar__author-img">
-            <div class="main-sidebar__author-img_cover"></div>
-            <h2 class="main-sidebar__author-title">David Charles</h2>
-            <h3 class="main-sidebar__author-subtitle">Blogger</h3>
-            <p class="main-sidebar__author-graph">
-              David Charles is a blogger, sports fan, novice political contributor and dog guy. He's worked in broadcast news, sports event production, marketing and social media coordniation. On days off, you can find him at the beach, at the dog partk or working
-              on side projects. For more info, click here.
-            </p>
-          </div>
           <div class="main-sidebar__archive">
             <h3 class="main-sidebar__title">
           Archive
@@ -93,15 +82,14 @@
       {{!--MAIN ABOUT  --}}
       {{about-us}}
 
-      {{!--MAIN CONTACT  --}}
-      {{contact-form}}
+        {{!--MAIN CONTACT  --}}
+        {{contact-form}}
 
-      {{!--MAIN FOOTER  --}}
-        <div class="main-footer">
-          <div class="legal">
-            Copyright (c) 2016 Copyright Teal Tung All Rights Reserved.
+          {{!--MAIN FOOTER  --}}
+          <div class="main-footer">
+            <div class="legal">
+              Copyright (c) 2016 Copyright Teal Tung All Rights Reserved.
+            </div>
+            {{social-nav}}
           </div>
-          {{social-nav}}
-        </div>
-        {{top-nav}}
 </div>

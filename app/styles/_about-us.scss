@@ -2,8 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 100%;
+  height: 700px;
   margin: auto;
+  background: url('../atx.png') no-repeat top fixed;
+  background-size: cover;
 }
 
 .about-us__header {
@@ -14,17 +17,18 @@
 }
 
 .about-us__header-title {
-  font-size: 3.5rem;
-  color: $brand-secondary;
+  font-size: 5rem;
+  color: $brand-primary;
   font-style: italic;
-  margin-bottom: 0;
+  margin: 1em 0 0;
+  text-decoration: overline;
 }
 
 .about-us__header-hr  {
   width: 35%;
   height: 4px;
   background: $brand-secondary;
-  margin: 1rem 0;
+  margin: 1rem 0 0;
 }
 
 .about-us__header-img {
@@ -36,5 +40,6 @@
   width: 70%;
   font-size: 1.5rem;
   color: $brand-secondary;
-  padding-bottom: 3rem;
+  background: $brand-primary-light;
+  padding: 3rem;
 }

@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   margin: auto;
-  justify-content: center;
+  justify-content: space-between;
   background: $brand-secondary;
 }
 
@@ -11,7 +11,7 @@
   flex-direction: column;
   background: $brand-secondary;
   color: $brand-primary;
-  width: 70%;
+  width: 100%;
   padding: 2rem 0;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .blog-post__title {
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .blog-post__title-hr {
@@ -40,6 +40,7 @@
 
 .blog-post__dateline {
   font-style: italic;
+  padding-bottom: 1rem;
 }
 
 .blog-post__preview {
@@ -53,28 +54,28 @@
 }
 
 .post__preview-graph {
-  width: 80%;
+  width: 100%;
 }
 
 .blog-post__button {
   height: 3rem;
   background: $brand-primary;
   color: $brand-secondary;
-  width: 5rem;
+  width: 200px;
   text-align: center;
   font-family: "Playfair Display";
+  font-size: 1.5rem;
 }
 
 .main-sidebar {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 30%;
   padding: 0 0 2rem;
   background: $brand-primary;
   color: $brand-secondary;
-  border-top: 10px solid $brand-secondary;
-
+  border: 10px solid $brand-secondary;
 }
 
 .main-sidebar__title {
@@ -84,51 +85,6 @@
   font-size: 2.2rem;
   padding: 2rem;
 }
-
-.main-sidebar__author {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-sidebar__author-img {
-  width: 250px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-.main-sidebar__author-img_cover {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 200px;
-  background: $brand-secondary;
-  border-radius: 50%;
-  opacity: 0.3;
-}
-
-.main-sidebar__author-title,
-.main-sidebar__author-subtitle,
-.main-sidebar__author-graph {
-  margin: 0;
-  padding: 0.2rem;
-  text-align: center;
-}
-
-.main-sidebar__author-subtitle {
-  width: 80%;
-  border-bottom: 1px solid $brand-secondary;
-  font-style: italic;
-  font-size: 1rem;
-}
-
-.main-sidebar__author-graph {
-  width: 80%;
-  padding: 0.5rem 0.5rem 3rem;
-}
-
 
 .main-sidebar__archive-list {
   list-style: none;

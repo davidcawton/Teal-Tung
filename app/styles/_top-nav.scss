@@ -1,22 +1,37 @@
 .main-nav {
+  position: fixed;
+  top: 4%;
+  left: 2%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+  justify-content: center;
   color: $brand-primary;
-  background: $brand-secondary;
-  padding: 10px 0;
+  border: 2px solid $brand-secondary;
+  background: $brand-primary-light;
+
 }
 
 .nav-list  {
   list-style: none;
   padding-left: 0;
   display: flex;
-  max-width: 980px;
+  flex-direction: column;
 }
 
-.nav-item {
+.nav-item a, .nav-item{
   margin: 0 5px;
+  font-size: 1rem;
+  padding: 0;
+  text-decoration: none;
+  color: $brand-secondary;
+
+  &:active {
+    color: $brand-white;
+  }
+
+  &:hover {
+    color: $brand-white;
+    text-decoration: overline;
+  }
 }
 
 .main-nav__hr {
