@@ -7,7 +7,24 @@
   color: $brand-primary;
   border: 2px solid $brand-secondary;
   background: $brand-primary-light;
+  width: 100px;
+  height: 100px;
+}
 
+.main-nav__cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 4%;
+  left: 2%;
+  width: 100px;
+  height: 100px;
+  background: $brand-primary;
+}
+
+.main-nav:hover .main-nav__cover {
+  display: none;
 }
 
 .nav-list  {
@@ -30,7 +47,7 @@
 
   &:hover {
     color: $brand-white;
-    text-decoration: overline;
+    text-decoration: underline;
   }
 }
 
