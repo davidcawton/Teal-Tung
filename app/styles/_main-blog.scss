@@ -11,6 +11,7 @@
   flex-direction: column;
   background: $brand-secondary;
   color: $brand-primary;
+  align-items: center;
   width: 100%;
   padding: 2rem 0;
 }
@@ -65,60 +66,4 @@
   text-align: center;
   font-family: "Playfair Display";
   font-size: 1.5rem;
-}
-
-.main-sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30%;
-  padding: 0 0 2rem;
-  background: $brand-primary;
-  color: $brand-secondary;
-  border: 10px solid $brand-secondary;
-}
-
-.main-sidebar__title {
-  border-top: 10px solid $brand-secondary;
-  margin: 0;
-  text-align: center;
-  font-size: 2.2rem;
-  padding: 2rem;
-}
-
-.main-sidebar__archive-list {
-  list-style: none;
-  font-size: 1.5rem;
-  padding: 0;
-  margin: 0;
-}
-
-.main-sidebar__archive-li {
-  padding: 0.5rem;
-  text-align: center;
-  font-style: italic;
-}
-
-
-.main-social {
-  display: flex;
-  padding: 0.5rem;
-  justify-content: center;
-}
-
-.main-social p {
-  font-size: 1.5rem;
-
-}
-
-.main-social-i {
-  padding: 0.5rem;
-  margin-top: 1rem;
-}
-
-
-.main-sidebar__title-hr {
-  width: 70%;
-  height: 2px;
-  background: $brand-secondary;
 }

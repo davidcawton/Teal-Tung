@@ -25,35 +25,9 @@
       <div class="main-body">
         {{!--MAIN BLOG  --}}
         <div class="main-blog">
-          <div class="blog-post">
-            <div class="blog-post__header">
-              <h3 class="blog-post__title">This is A Cool Title</h3>
-              <hr class="blog-post__title-hr">
-              <p class="blog-post__dateline">November 20, 2016</p>
-            </div>
-            <div class="blog-post__preview">
-              <img src="sleepbw.png" alt="Teal Tung" class="post__preview-img">
-              <p class="post__preview-graph">
-                Brunch wolf forage, authentic single-origin coffee man braid taxidermy typewriter. Listicle hot chicken vape, vexillologist sartorial affogato food truck austin. Keytar butcher hoodie pop-up, gluten-free sartorial subway tile poutine hashtag pitchfork
-                pabst. Selvage salvia tumblr, wolf aesthetic banjo kogi shabby chic blue bottle narwhal hell of raclette actually.
-              </p>
-            </div>
-            <button class="blog-post__button">Read More</button>
-          </div>
-          <div class="blog-post">
-            <div class="blog-post__header">
-              <h3 class="blog-post__title">This is A Funny Title</h3>
-              <hr class="blog-post__title-hr">
-              <p class="blog-post__dateline">November 20, 2016</p>
-            </div>
-            <div class="blog-post__preview">
-              <img src="sleepbw.png" alt="Teal Tung" class="post__preview-img">
-              <p class="post__preview-graph">
-                Brunch wolf forage, authentic single-origin coffee man braid taxidermy typewriter. Listicle hot chicken vape, vexillologist sartorial affogato food truck austin. Keytar butcher hoodie pop-up, gluten-free sartorial subway tile poutine hashtag pitchfork
-                pabst. Selvage salvia tumblr, wolf aesthetic banjo kogi shabby chic blue bottle narwhal hell of raclette actually. </p>
-            </div>
-            <button class="blog-post__button">Read More</button>
-          </div>
+          {{#link-to 'posts'}} <h1 class="blog-post__title">Posts</h1>
+          {{/link-to}}
+          {{outlet}}
         </div>
 
         {{!-- MAIN SIDEBAR --}}
