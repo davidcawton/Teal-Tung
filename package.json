@@ -46,6 +46,7 @@
     "loader.js": "^4.0.10"
   },
   "dependencies": {
-    "emberfire": "2.0.5"
+    "emberfire": "2.0.5",
+    "firebase": "^3.6.2"
   }
 }
