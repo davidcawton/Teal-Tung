@@ -6,6 +6,17 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    firebase: {
+      apiKey: 'AIzaSyCd42yFGS4dMjM7uCMlmDrEdDG4a-TfzXg',
+      authDomain: 'tealtung.firebaseapp.com',
+      databaseURL: 'https://tealtung.firebaseio.com',
+      storageBucket: 'tealtung.appspot.com',
+    },
+    contentSecurityPolicy: {
+      'script-src': "'self' 'unsafe-eval' apis.google.com",
+      'frame-src': "'self' https://*.firebaseapp.com",
+      'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com"
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -22,10 +33,7 @@ module.exports = function(environment) {
       // when it is created
     },
 
-    googleFonts: [
-        'Playfair+Display:300,400,400i,700,900,900i',
-        'Roboto:300'
-      ],
+    googleFonts:  [      'Playfair+Display:300,400,400i,700,900,900i',       'Roboto:300'    ],
   };
 
   if (environment === 'development') {

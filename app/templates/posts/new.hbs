@@ -2,8 +2,8 @@
 
 <form class="blog-post__form">
     {{#input class='blog-post__form-input' type='text' value=title placeholder='Add Title'}}{{/input}}
-    {{#input class='blog-post__form-input' type='text' value=title placeholder='Monday'}}{{/input}}
+    {{#input class='blog-post__form-input' type='text' value=date placeholder='Monday'}}{{/input}}
     {{#textarea class='blog-post__form-input' type='text' value=preview placeholder='A Short Description'}}{{/textarea}}
-    {{#textarea class='blog-post__form-input' type='body' value=preview placeholder="What's on your mind?"}}{{/textarea}}
-  <button {{action 'newPost'}} class="blog-post__button" >Add</button>
+    {{#textarea class='blog-post__form-input' type='body' value=body placeholder="What's on your mind?"}}{{/textarea}}
+  <button {{action 'addPost'}} class="blog-post__button" >Add</button>
 </form>
